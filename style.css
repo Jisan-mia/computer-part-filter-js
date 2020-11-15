@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&family=Ubuntu:wght@500&display=swap');
+
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: rgba(0, 0, 0, 0.05);
+
+}
+
+section{
+	
+}
+
+
+.card img{
+	cursor: pointer;
+}
+
+.card{
+	box-shadow: 0 0 9px 3px rgba(0, 0, 0, 0.1);
+	border: none;
+	overflow: hidden;
+}
+
+@media (max-width: 325px){
+	.filter-btn-div .filter-btn{
+		font-size: 14px !important;
+	}
+}
