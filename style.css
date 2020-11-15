@@ -26,6 +26,11 @@ section{
 	overflow: hidden;
 }
 
+.filter-btn-div .btn.active{
+	color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
 @media (max-width: 325px){
 	.filter-btn-div .filter-btn{
 		font-size: 14px !important;
