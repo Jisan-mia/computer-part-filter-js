@@ -72,3 +72,21 @@ filterBtns.forEach((button) => {
 
 	})
 })
+
+
+//searc box filter
+
+const searchBox = document.getElementById('search-item');
+
+searchBox.addEventListener('keyup', (e) => {
+	const searchFilter = e.target.value.toUpperCase().trim();
+
+
+	component.forEach((item) => {
+		if(item.textContent.includes(searchFilter)){
+			item.style.display = 'block';
+		} else {
+			item.style.display = 'none';
+		}
+	})
+})

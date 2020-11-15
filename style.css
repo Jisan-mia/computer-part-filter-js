@@ -13,6 +13,11 @@ section{
 
 .card img{
 	cursor: pointer;
+	padding: 7px;
+}
+
+.card .card-header p{
+	font-weight: bold;
 }
 
 .card{
